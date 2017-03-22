@@ -1,0 +1,611 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		12161C141E82DBA0001A525F /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 12161C131E82DBA0001A525F /* AppDelegate.swift */; };
+		12161C161E82DBA0001A525F /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 12161C151E82DBA0001A525F /* ViewController.swift */; };
+		12161C191E82DBA0001A525F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 12161C171E82DBA0001A525F /* Main.storyboard */; };
+		12161C1B1E82DBA0001A525F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 12161C1A1E82DBA0001A525F /* Assets.xcassets */; };
+		12161C1E1E82DBA0001A525F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 12161C1C1E82DBA0001A525F /* LaunchScreen.storyboard */; };
+		12161C291E82DBA0001A525F /* FreeTvTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 12161C281E82DBA0001A525F /* FreeTvTests.swift */; };
+		12161C341E82DBA0001A525F /* FreeTvUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 12161C331E82DBA0001A525F /* FreeTvUITests.swift */; };
+		D692BCBAD7EF9F3EAAD468B2 /* Pods_FreeTv.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F6C46F4CA6F0674261CB7B1F /* Pods_FreeTv.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		12161C251E82DBA0001A525F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 12161C081E82DBA0001A525F /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 12161C0F1E82DBA0001A525F;
+			remoteInfo = FreeTv;
+		};
+		12161C301E82DBA0001A525F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 12161C081E82DBA0001A525F /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 12161C0F1E82DBA0001A525F;
+			remoteInfo = FreeTv;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		12161C101E82DBA0001A525F /* FreeTv.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FreeTv.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		12161C131E82DBA0001A525F /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		12161C151E82DBA0001A525F /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		12161C181E82DBA0001A525F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		12161C1A1E82DBA0001A525F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		12161C1D1E82DBA0001A525F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		12161C1F1E82DBA0001A525F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		12161C241E82DBA0001A525F /* FreeTvTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FreeTvTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		12161C281E82DBA0001A525F /* FreeTvTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FreeTvTests.swift; sourceTree = "<group>"; };
+		12161C2A1E82DBA0001A525F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		12161C2F1E82DBA0001A525F /* FreeTvUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FreeTvUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		12161C331E82DBA0001A525F /* FreeTvUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FreeTvUITests.swift; sourceTree = "<group>"; };
+		12161C351E82DBA0001A525F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		24986AF98CBF5F8D4CB1BAE8 /* Pods-FreeTv.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FreeTv.release.xcconfig"; path = "Pods/Target Support Files/Pods-FreeTv/Pods-FreeTv.release.xcconfig"; sourceTree = "<group>"; };
+		BF138FDC9D36225E8DD34AA4 /* Pods-FreeTv.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FreeTv.debug.xcconfig"; path = "Pods/Target Support Files/Pods-FreeTv/Pods-FreeTv.debug.xcconfig"; sourceTree = "<group>"; };
+		F6C46F4CA6F0674261CB7B1F /* Pods_FreeTv.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_FreeTv.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		12161C0D1E82DBA0001A525F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D692BCBAD7EF9F3EAAD468B2 /* Pods_FreeTv.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		12161C211E82DBA0001A525F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		12161C2C1E82DBA0001A525F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		12161C071E82DBA0001A525F = {
+			isa = PBXGroup;
+			children = (
+				12161C121E82DBA0001A525F /* FreeTv */,
+				12161C271E82DBA0001A525F /* FreeTvTests */,
+				12161C321E82DBA0001A525F /* FreeTvUITests */,
+				12161C111E82DBA0001A525F /* Products */,
+				97B69ADF8717364FAF295795 /* Pods */,
+				D3AECBAB5EBD50879B613931 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		12161C111E82DBA0001A525F /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				12161C101E82DBA0001A525F /* FreeTv.app */,
+				12161C241E82DBA0001A525F /* FreeTvTests.xctest */,
+				12161C2F1E82DBA0001A525F /* FreeTvUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		12161C121E82DBA0001A525F /* FreeTv */ = {
+			isa = PBXGroup;
+			children = (
+				12161C131E82DBA0001A525F /* AppDelegate.swift */,
+				12161C151E82DBA0001A525F /* ViewController.swift */,
+				12161C171E82DBA0001A525F /* Main.storyboard */,
+				12161C1A1E82DBA0001A525F /* Assets.xcassets */,
+				12161C1C1E82DBA0001A525F /* LaunchScreen.storyboard */,
+				12161C1F1E82DBA0001A525F /* Info.plist */,
+			);
+			path = FreeTv;
+			sourceTree = "<group>";
+		};
+		12161C271E82DBA0001A525F /* FreeTvTests */ = {
+			isa = PBXGroup;
+			children = (
+				12161C281E82DBA0001A525F /* FreeTvTests.swift */,
+				12161C2A1E82DBA0001A525F /* Info.plist */,
+			);
+			path = FreeTvTests;
+			sourceTree = "<group>";
+		};
+		12161C321E82DBA0001A525F /* FreeTvUITests */ = {
+			isa = PBXGroup;
+			children = (
+				12161C331E82DBA0001A525F /* FreeTvUITests.swift */,
+				12161C351E82DBA0001A525F /* Info.plist */,
+			);
+			path = FreeTvUITests;
+			sourceTree = "<group>";
+		};
+		97B69ADF8717364FAF295795 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				BF138FDC9D36225E8DD34AA4 /* Pods-FreeTv.debug.xcconfig */,
+				24986AF98CBF5F8D4CB1BAE8 /* Pods-FreeTv.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		D3AECBAB5EBD50879B613931 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				F6C46F4CA6F0674261CB7B1F /* Pods_FreeTv.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		12161C0F1E82DBA0001A525F /* FreeTv */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 12161C381E82DBA0001A525F /* Build configuration list for PBXNativeTarget "FreeTv" */;
+			buildPhases = (
+				0BC328CEAFED9A7E3DB30C2F /* [CP] Check Pods Manifest.lock */,
+				12161C0C1E82DBA0001A525F /* Sources */,
+				12161C0D1E82DBA0001A525F /* Frameworks */,
+				12161C0E1E82DBA0001A525F /* Resources */,
+				9D95FC6C9928A4E33D26AE3E /* [CP] Embed Pods Frameworks */,
+				18B563A340F25460D562B648 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = FreeTv;
+			productName = FreeTv;
+			productReference = 12161C101E82DBA0001A525F /* FreeTv.app */;
+			productType = "com.apple.product-type.application";
+		};
+		12161C231E82DBA0001A525F /* FreeTvTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 12161C3B1E82DBA0001A525F /* Build configuration list for PBXNativeTarget "FreeTvTests" */;
+			buildPhases = (
+				12161C201E82DBA0001A525F /* Sources */,
+				12161C211E82DBA0001A525F /* Frameworks */,
+				12161C221E82DBA0001A525F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				12161C261E82DBA0001A525F /* PBXTargetDependency */,
+			);
+			name = FreeTvTests;
+			productName = FreeTvTests;
+			productReference = 12161C241E82DBA0001A525F /* FreeTvTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		12161C2E1E82DBA0001A525F /* FreeTvUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 12161C3E1E82DBA0001A525F /* Build configuration list for PBXNativeTarget "FreeTvUITests" */;
+			buildPhases = (
+				12161C2B1E82DBA0001A525F /* Sources */,
+				12161C2C1E82DBA0001A525F /* Frameworks */,
+				12161C2D1E82DBA0001A525F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				12161C311E82DBA0001A525F /* PBXTargetDependency */,
+			);
+			name = FreeTvUITests;
+			productName = FreeTvUITests;
+			productReference = 12161C2F1E82DBA0001A525F /* FreeTvUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		12161C081E82DBA0001A525F /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0820;
+				LastUpgradeCheck = 0820;
+				ORGANIZATIONNAME = "Jacob Williamson";
+				TargetAttributes = {
+					12161C0F1E82DBA0001A525F = {
+						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = 5FHTGY86RA;
+						ProvisioningStyle = Automatic;
+					};
+					12161C231E82DBA0001A525F = {
+						CreatedOnToolsVersion = 8.2.1;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 12161C0F1E82DBA0001A525F;
+					};
+					12161C2E1E82DBA0001A525F = {
+						CreatedOnToolsVersion = 8.2.1;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 12161C0F1E82DBA0001A525F;
+					};
+				};
+			};
+			buildConfigurationList = 12161C0B1E82DBA0001A525F /* Build configuration list for PBXProject "FreeTv" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 12161C071E82DBA0001A525F;
+			productRefGroup = 12161C111E82DBA0001A525F /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				12161C0F1E82DBA0001A525F /* FreeTv */,
+				12161C231E82DBA0001A525F /* FreeTvTests */,
+				12161C2E1E82DBA0001A525F /* FreeTvUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		12161C0E1E82DBA0001A525F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				12161C1E1E82DBA0001A525F /* LaunchScreen.storyboard in Resources */,
+				12161C1B1E82DBA0001A525F /* Assets.xcassets in Resources */,
+				12161C191E82DBA0001A525F /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		12161C221E82DBA0001A525F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		12161C2D1E82DBA0001A525F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		0BC328CEAFED9A7E3DB30C2F /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		18B563A340F25460D562B648 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-FreeTv/Pods-FreeTv-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		9D95FC6C9928A4E33D26AE3E /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-FreeTv/Pods-FreeTv-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		12161C0C1E82DBA0001A525F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				12161C161E82DBA0001A525F /* ViewController.swift in Sources */,
+				12161C141E82DBA0001A525F /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		12161C201E82DBA0001A525F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				12161C291E82DBA0001A525F /* FreeTvTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		12161C2B1E82DBA0001A525F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				12161C341E82DBA0001A525F /* FreeTvUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		12161C261E82DBA0001A525F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 12161C0F1E82DBA0001A525F /* FreeTv */;
+			targetProxy = 12161C251E82DBA0001A525F /* PBXContainerItemProxy */;
+		};
+		12161C311E82DBA0001A525F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 12161C0F1E82DBA0001A525F /* FreeTv */;
+			targetProxy = 12161C301E82DBA0001A525F /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		12161C171E82DBA0001A525F /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				12161C181E82DBA0001A525F /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		12161C1C1E82DBA0001A525F /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				12161C1D1E82DBA0001A525F /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		12161C361E82DBA0001A525F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		12161C371E82DBA0001A525F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		12161C391E82DBA0001A525F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = BF138FDC9D36225E8DD34AA4 /* Pods-FreeTv.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 5FHTGY86RA;
+				INFOPLIST_FILE = FreeTv/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Gigster.FreeTv;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		12161C3A1E82DBA0001A525F /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 24986AF98CBF5F8D4CB1BAE8 /* Pods-FreeTv.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 5FHTGY86RA;
+				INFOPLIST_FILE = FreeTv/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Gigster.FreeTv;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+		12161C3C1E82DBA0001A525F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = FreeTvTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Gigster.FreeTvTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/FreeTv.app/FreeTv";
+			};
+			name = Debug;
+		};
+		12161C3D1E82DBA0001A525F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = FreeTvTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Gigster.FreeTvTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/FreeTv.app/FreeTv";
+			};
+			name = Release;
+		};
+		12161C3F1E82DBA0001A525F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				INFOPLIST_FILE = FreeTvUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Gigster.FreeTvUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = FreeTv;
+			};
+			name = Debug;
+		};
+		12161C401E82DBA0001A525F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				INFOPLIST_FILE = FreeTvUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Gigster.FreeTvUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = FreeTv;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		12161C0B1E82DBA0001A525F /* Build configuration list for PBXProject "FreeTv" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				12161C361E82DBA0001A525F /* Debug */,
+				12161C371E82DBA0001A525F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		12161C381E82DBA0001A525F /* Build configuration list for PBXNativeTarget "FreeTv" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				12161C391E82DBA0001A525F /* Debug */,
+				12161C3A1E82DBA0001A525F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		12161C3B1E82DBA0001A525F /* Build configuration list for PBXNativeTarget "FreeTvTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				12161C3C1E82DBA0001A525F /* Debug */,
+				12161C3D1E82DBA0001A525F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		12161C3E1E82DBA0001A525F /* Build configuration list for PBXNativeTarget "FreeTvUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				12161C3F1E82DBA0001A525F /* Debug */,
+				12161C401E82DBA0001A525F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 12161C081E82DBA0001A525F /* Project object */;
+}
